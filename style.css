@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    box-shadow: 2px 2px 10px black;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.red1{
+    background-color: #3a579a;
+    padding: 20px;
+    width: 50px;
+    position: fixed;
+    top: 300px;
+}
+.red2{
+    width: 2000px;
+    position: fixed;
+    top: 650px;
+    display: flex;
+}
+.blue1{
+    background-color: #00abf0;
+    padding: 20px;
+    width: 50px;
+    position: fixed;
+    top: 359px;
+}
+.green1{
+    background-color: #127bb6;
+    padding: 20px;
+    width: 50px;
+    position: fixed;
+    top: 415px;
+}
+section{
+    padding-top: 300px;
+}
+.font{
+    padding: 50px 100px;
+    color: rgb(0,14,66);
+}
+.fon{
+    font-weight: 700;
+    font-size: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fontt{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.but{
+    background-color: rgb(0,32,138);
+    border-radius: 10px;
+    height: 50px;
+    width: 90px;
+    border: solid rgb(0,32,138);
+}
+.normal-link{
+    text-decoration: underline;
+    color: white;
+}
+.img{
+    margin-left: -10px;
+}
+.div1{
+    display: flex;
+}
+.class{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    column-gap: 90px;
+    justify-content: center;
+    padding-top: 180px;
+    margin-left: -70px;
+}
+.f1{
+    /* padding-left: 290px; */
+    padding-left: 215px;
+    padding-top: 50px;
+    font-size: 42px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(0,32,138);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 0px 200px;
+}
+.red{
+    padding: 20px;
+    width: 350px;
+}
+.blue{
+    padding: 20px;
+    width: 365px;
+}
+.green{
+    padding: 20px;
+    width: 330px;
+}
+.f2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(0,32,138);
+}
+.f3{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+}
+.f4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(38, 54, 78);
+}
+.div3{
+    /* padding-left: 270px; */
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.div2{
+    background-color: rgb(213,233,242);
+    width: 500px;
+    padding: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 30px rgb(209,234,214);
+    margin-left: -8px;
+}
+.div4{
+    background-color: rgb(224,213,192);
+    width: 500px;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 30px rgb(209,234,214);
+    margin-left: -8px;
+}
+.div7{
+    margin-left: 600px;
+    margin-top: -1450px;
+}
+.div5{
+    background-color: rgb(238,239,189);
+    width: 500px;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 30px rgb(255,223,217);
+    border: 1px solid black;
+}
+.div6{
+    background-color: rgb(223,213,232);
+    width: 500px;
+    padding: 50px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 50px 30px rgb(255,225,219);
+    border: 1px solid black;
+}
+.div8{
+    /* padding-left: 270px; */
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.div9{
+    margin-top: 50px;
+    display: flex;
+    gap: 150px;
+}
+.div10{
+    display: flex;
+    gap: 150px;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+.div11{
+    display: flex;
+    gap: 150px;
+    margin-left: -150px;
+    margin-top: 50px;
+}
+.div12{
+    /* background-image: linear-gradient( 120deg, rgba(61, 63, 88, 0) 0%, #0e1143 70%), url(/images/DSC_9054-scaled.jpg); */
+    background-image: linear-gradient(rgba(138, 69, 69, 0), #272b71), url(/images/DSC_9054-scaled.jpg);
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    margin-top: 100px;
+    height: 70vh;
+    display: flex;
+}
+.font1{
+    display: flex;
+    color: white;
+    padding-left: 250px;
+    gap: 300px;
+    padding-top: 120px;
+}
+.if{
+    border-radius: 50px;
+}
+.butt{
+    background-color: blue;
+    height: 50px;
+    width: 90px;
+    border-radius: 40px;
+    border: blue;
+}
+.f5{
+    font-size: 28px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f6{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f7{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f8{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1{
+    width: 170px;
+    height: 5vh;
+    margin-top: 23px;
+    color: ;
+    background-color: rgb(245,247,249);
+    border: none;
+}
+.a1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(51, 51, 51);
+}
+.a2{
+    font-weight: 700;
+}
+.a3{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    font-family: Arial, Helvetica, sans-serif;
+}
