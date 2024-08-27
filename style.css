@@ -282,23 +282,29 @@ section{
     .class{
         display: block;
         justify-content: center;
-        padding-top: 180px;
+        padding-top: 100px;
         margin-top: 0%;
     }
     .div1 #divv{
         width: 100%;
     }
+    .fon{
+        font-weight: 700;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
     .f1{
-        padding: 0%;
+        padding: 30px;
         padding-top: 50px;
-        font-size: 42px;
+        font-size: 32px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
         color: rgb(0,32,138);
     }
     .grid{
         display: block;
-        padding: 0%;
+        padding: 20px;
+        margin-top: -50px;
     }
     .div3{
         padding: 0%;
@@ -314,5 +320,91 @@ section{
     }
     section{
         display: none;
+    }
+    .div2{
+        background-color: rgb(213,233,242);
+        width: 90%;
+        padding: 50px;
+        margin-top: 50px;
+        border-radius: 20px;
+        box-shadow: 0px 50px 30px rgb(209,234,214);
+        /* margin-left: -8px; */
+        margin: 20px;
+    }
+    #software-img{
+        width: 250px;
+    }
+    .div4{
+        background-color: rgb(224,213,192);
+        width: 90%;
+        padding: 50px;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 50px 30px rgb(209,234,214);
+        /* margin-left: -8px; */
+        margin: 20px;
+    }
+    #UX-img{
+        width: 250px;
+    }
+    .div5{
+        background-color: rgb(238,239,189);
+        width: 90%;
+        padding: 50px;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 50px 30px rgb(255,223,217);
+        border: 1px solid black;
+        margin: 20px;
+    }
+    #data-img{
+        width: 250px;
+    }
+    .div6{
+        background-color: rgb(238,239,189);
+        width: 90%;
+        padding: 50px;
+        margin-top: 30px;
+        border-radius: 20px;
+        box-shadow: 0px 50px 30px rgb(255,223,217);
+        border: 1px solid black;
+        margin: 20px;
+    }
+    #digital-img{
+        width: 250px;
+    }
+    .div12{
+        /* background-image: linear-gradient( 120deg, rgba(61, 63, 88, 0) 0%, #0e1143 70%), url(/images/DSC_9054-scaled.jpg); */
+        background-image: linear-gradient(rgba(138, 69, 69, 0), #272b71), url(/images/DSC_9054-scaled.jpg);
+        background-size: cover;
+        background-position: left;
+        width: 90%;
+        /* margin-top: 100px; */
+        height: 80vh;
+        display: flex;
+        border-radius: 30px;
+        margin: 150px 20px;
+    }
+    .font1{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding: 50px 0%;
+    }
+    .f7{
+        font-size: 40px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 20px;
+    }
+    .f8{
+        font-weight: 500;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0% 20px;
+    }
+    #link{
+        padding: 20px;
     }
 }
